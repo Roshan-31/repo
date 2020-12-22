@@ -1,0 +1,14 @@
+CREATE TABLE `user_details` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `user_name` varchar(45) NOT NULL,
+  `password` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `temp_details` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `sensor` varchar(45) NOT NULL,
+  `temp_value` varchar(45) NOT NULL,
+  `create_timestamp` timestamp NOT NULL,
+  PRIMARY KEY (`id`)
+);
